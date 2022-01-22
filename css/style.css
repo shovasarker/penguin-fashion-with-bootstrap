@@ -1,0 +1,73 @@
+.custom-radius {
+  border-radius: 20px;
+}
+
+.header {
+  background-color: #fffbf0;
+}
+
+.navbar-brand img {
+  width: 190px;
+}
+
+.text-orange {
+  color: #fabe4c;
+}
+
+.custom-btn {
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  border-radius: 10px;
+  border: none;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-btn > img {
+  width: 18px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.card-img-container {
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  padding: 24px 32px;
+}
+
+.card-img-container > img {
+  width: 100%;
+}
+
+.custom-card-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.utilities {
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-title {
+    font-size: 3rem;
+  }
+  .utilities {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner-title {
+    font-size: 4rem;
+  }
+}
